@@ -4,7 +4,7 @@ This `txt` file's size is not zero, but if we open this file, we can see nothing
 
 Throw file into `HexEditor`, then we can see it is made of many invisible`0x20(space)` and `0x09(tab)`.
 
-![](.\img\2026-04-20 220623.png)
+![](https://github.com/alphacat-666/CTFWriteup/blob/48849072e81b609beef516884e8b79580563f299/Cryptography/Eggs%20Over%20Easy%20(BlueHens%20CTF%202026)/img/2026-04-20%20220623.png)
 
 ## 1. Whitespace cipher
 
