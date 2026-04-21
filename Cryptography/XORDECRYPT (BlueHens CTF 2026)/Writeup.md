@@ -56,4 +56,5 @@ new_img.putdata(decrypted_pixels)
 new_img.save(DECRYPTED_IMG_PATH)
 ```
 
-![]()
+![](https://github.com/alphacat-666/CTFWriteup/blob/b5db6d6a0229dbbf7b4683b97e75c6cdabe06655/Cryptography/XORDECRYPT%20(BlueHens%20CTF%202026)/result.png)
+
