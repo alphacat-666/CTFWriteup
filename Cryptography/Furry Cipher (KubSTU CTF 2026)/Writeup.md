@@ -2,7 +2,7 @@ Description: I was scrolling through my email and saw a message from FurryHater_
 
 P.S. `Weird_Furry_text.txt` should be 1GB large with many random characters like the following format. But I don't want to upload 1GB file, so it is empty.
 
-![](C:\Users\14489\Desktop\CTFWriteup&Notes\CTFWriteup\Cryptography\Furry Cipher (KubSTU CTF 2026)\img\屏幕截图 2026-05-02 224439.png)
+![](https://github.com/alphacat-666/CTFWriteup/blob/d2633fe3ebed6bc559fc2bfb1b5a0e38e62e223b/Cryptography/Furry%20Cipher%20(KubSTU%20CTF%202026)/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-05-02%20224439.png)
 
 We go back to the script, this logic is really simple:
 
