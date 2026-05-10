@@ -6,7 +6,7 @@ During the competition, I know I can utilize Multiplicative Homomorphism, which 
 
 Below is my personal understanding of Z4faran's idea, and also the record of his script. 
 
-![](C:\Users\14489\Desktop\CTFWriteup&Notes\CTFWriteup\Cryptography\no-brainrot-allowed (UMD CTF 2026)\img\Inkodo-2026510_103309.png)
+![](https://github.com/alphacat-666/CTFWriteup/blob/a7dca5f483c9b1efd057970d12982008385e156a/Cryptography/no-brainrot-allowed%20(UMD%20CTF%202026)/img/Inkodo-2026510_103309.png)
 
 ```python
 #!/usr/bin/env python3
