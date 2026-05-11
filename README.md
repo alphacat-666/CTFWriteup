@@ -10,5 +10,6 @@
 | Nintendo 3DS        | Cryptography     | Hey, I just can't remember the name of the algorithm, but it's something very similar to Nintendo 3DS. Help me figure out what was written there^^ |
 | Cat-girl conspiracy | Cryptography     | Listen, this is a strange archive, and the name is weird too?? Deal with this as soon as you can, please. |
 | no-brainrot-allowed | Cryptography     | Unfortunately, our insider trading anonymous tip line has been spammed by people who preferred last year's theme. As a result, our encrypted line now checks to make sure you are of sound mind. |
+| Exponope            | Cryptography     | /                                                            |
 |                     |                  |                                                              |
 

@@ -1,0 +1,41 @@
+Description suggests that `e` is a small value. And also `len(c) < len(N)`, which means that:
+$$
+c= m^e\:mod\:N
+=>c=m^e
+$$
+So we can just try different small e one by one.
+
+```python
+N = "0x6361956d13a35165056e1d17a7823cff3579b81964bef82da624425f15722a8dbd15ecbf0fbcaa3a386eb42af26994377d8c77d5fc80fc351186441429ea563a365304d6832a3ac2c5ff911684abe3f6a531da92260a6ed856e543ed723c20124d368699c7b95b3c46927d3ead9123ea6f6950f19090318d98e0a499535b9f2f20fe08a9998c65346e44b3c2b86adf952282816d7daeb5823e0c3ac7a732d7a28deaf934bdc8de1f6a598eaf7d1a6942590da278c7f72f2183593b6ca48aae09efd4acf9b2e4d768ea37388356e913f0142392dbd5c4ccd484ee09fbf67e9f279601fe18eba58fdc7e2b9a8328dcb50fca38a7e8da894b65521b07fb89d3d25d"
+c = "0xfd7d893b965ca58d3e19e07e85f95b440b3e66245a14ad601c8aeae7b139b3d044ec05e9bd4e1ba9a9f2603d4d12bbd343068e55d454417a9ef0dd4d8c8deb717de0c538ca56524ce3e0adee6542d5b710ca6359510d05b9e04fd49adf8f2cf63a7eda6d69b6a59982311801e48c6a5a0154c5bc206dcf7315441d838859871a444cd81c4836b660f26a5e69a7702d8d"
+
+def brute_rsa_small_e(c, max_e=100):
+    for e in range(3, max_e + 1):
+        low = 1
+        high = c
+        while low <= high:
+            mid = (low + high) // 2
+            p = mid ** e
+            if p == c:
+                return e, mid
+            elif p < c:
+                low = mid + 1
+            else:
+                high = mid - 1
+    return False, None
+
+if __name__ == "__main__":
+    e, m = brute_rsa_small_e(int(c, 16), max_e=20)
+    if e:
+        print(f"e = {e}")
+        m = m.to_bytes((m.bit_length() + 7) // 8, byteorder="big").decode('utf-8')
+        print(f"m = {m}")
+    else:
+        print(f"Failed to find e below {max_e}, adjust max_e.")
+```
+
+```
+e = 5
+m = THC{u_n3eD_@_bett3r_eXp0neNT}
+```
+
