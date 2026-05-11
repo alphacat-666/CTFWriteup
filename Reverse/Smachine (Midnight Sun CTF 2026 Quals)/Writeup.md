@@ -8,4 +8,4 @@ But after some testing, the easiest way `add` or `sub` is not permitted to reach
 
 So just use `or` and `xor` can solve this problem:
 
-![](C:\Users\14489\Desktop\CTFWriteup&Notes\CTFWriteup\Reverse\Smachine (Midnight Sun CTF 2026 Quals)\img\2026-05-10 211047.png)
+![](https://github.com/alphacat-666/CTFWriteup/blob/ae28d8e6900047e71f8b638a2308790b140d5a9d/Reverse/Smachine%20(Midnight%20Sun%20CTF%202026%20Quals)/img/2026-05-10%20211047.png)

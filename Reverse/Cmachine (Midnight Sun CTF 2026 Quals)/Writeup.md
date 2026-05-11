@@ -8,7 +8,7 @@ And `readstr` has restriction of the writing boundary of memory space.
 
 Then I also find that when using `login`, it will write the input password into memory space, which can cause buffer overflow problem, since it does not have restriction of boundary.
 
-![](C:\Users\14489\Desktop\CTFWriteup&Notes\CTFWriteup\Reverse\Cmachine (Midnight Sun CTF 2026 Quals)\img\2026-05-11 232139.png)
+![](https://github.com/alphacat-666/CTFWriteup/blob/ae28d8e6900047e71f8b638a2308790b140d5a9d/Reverse/Cmachine%20(Midnight%20Sun%20CTF%202026%20Quals)/img/2026-05-11%20232139.png)
 
 But then I am stuck. My thought is that I only can get the flag after successful login, then I need to make the validation become `True`, even if I input the wrong password.
 
