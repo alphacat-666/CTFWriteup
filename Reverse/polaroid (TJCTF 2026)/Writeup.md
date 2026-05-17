@@ -6,11 +6,11 @@ Throw it into Ghidra:
 + XOR each byte with password byte 
 + Output a flag image
 
-![](C:\Users\14489\Desktop\CTFWriteup&Notes\CTFWriteup\Reverse\polaroid (TJCTF 2026)\img\2026-05-17 235914.png)
+![](https://github.com/alphacat-666/CTFWriteup/blob/8aea3886324682ad27c44083ccb04a0bb21c4164/Reverse/polaroid%20(TJCTF%202026)/img/2026-05-17%20235914.png)
 
 Inside there is one statement about i looks complex, so I test it in python. Actually its function is equal to `i % 17`.
 
-![](C:\Users\14489\Desktop\CTFWriteup&Notes\CTFWriteup\Reverse\polaroid (TJCTF 2026)\img\2026-05-17 234514.png)
+![](https://github.com/alphacat-666/CTFWriteup/blob/8aea3886324682ad27c44083ccb04a0bb21c4164/Reverse/polaroid%20(TJCTF%202026)/img/2026-05-17%20234514.png)
 
 This should be very simple, because it can automatically output an image. But I am not using Mac, then I can not execute it directly.
 
