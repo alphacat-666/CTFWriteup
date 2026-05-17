@@ -6,7 +6,7 @@ The website keep showing two choices, and only one of both is correct.
 
 Wrong choice shows: 'Nope', while correct one leads to another binary choice endlessly...
 
-![](C:\Users\14489\Desktop\CTFWriteup&Notes\CTFWriteup\Misc\Tunnel (Midnight Sun CTF 2026 Quals)\img\2026-05-10 201516.png)
+![](https://github.com/alphacat-666/CTFWriteup/blob/20bdef0781a7a6c74550b2ad89f1ef0cc324b789/Misc/Tunnel%20(Midnight%20Sun%20CTF%202026%20Quals)/img/2026-05-10%20201516.png)
 
 When I clicked on the choice button, I also noticed that the URL parameter `path` is changing, such as `?path=z6qpcm5thexk`.
 
