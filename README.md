@@ -16,5 +16,6 @@
 | Smachine            | Reverse        | Midnight Sun CTF 2026 Quals | Sometimes reversing is just blackbox pwning.                 |
 | Cmashine            | Reverse        | Midnight Sun CTF 2026 Quals | Sometimes reversing is just blackbox pwning.                 |
 | treasure-hunt       | Web            | TJCTF 2026                  | Let's go hunt down some treasure! The flag is split into 4 parts. I'll give you the first one right here: tjctf |
+| polaroid            | Reverse        | TJCTF 2026                  | this old polaroid won't develop. it needs a password, and the password is somewhere on the film. |
 |                     |                |                             |                                                              |
 
