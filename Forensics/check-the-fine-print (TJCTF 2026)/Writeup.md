@@ -2,7 +2,7 @@ description: what? the details matter? but why can't i see them...
 
 We put logo image into Hex editor. We can see it contains many `PK` inside, which is the magic number of ZIP file header.
 
-![](C:\Users\14489\Desktop\CTFWriteup&Notes\CTFWriteup\Forensics\check-the-fine-print (TJCTF 2026)\img\2026-05-18 120619.png)
+![](https://github.com/alphacat-666/CTFWriteup/blob/9d2b2a4c4d4bf6e7903cb4537d029ac1fc46a576/Forensics/check-the-fine-print%20(TJCTF%202026)/img/2026-05-18%20120619.png)
 
 `binwalk -e logo.png`
 
@@ -268,11 +268,11 @@ So I decide to make a comparison between normal one and abnormal one.
 
 `vimdiff <(xxd ./_logo.png.extracted/001.png) <(xxd ./_logo.png.extracted/002.png)`
 
-![](C:\Users\14489\Desktop\CTFWriteup&Notes\CTFWriteup\Forensics\check-the-fine-print (TJCTF 2026)\img\2026-05-18 181215.png)
+![](https://github.com/alphacat-666/CTFWriteup/blob/9d2b2a4c4d4bf6e7903cb4537d029ac1fc46a576/Forensics/check-the-fine-print%20(TJCTF%202026)/img/2026-05-18%20181215.png)
 
 From [PNG - Wikipedia](https://en.wikipedia.org/wiki/PNG), we know that this position value must be set as 0.
 
-![](C:\Users\14489\Desktop\CTFWriteup&Notes\CTFWriteup\Forensics\check-the-fine-print (TJCTF 2026)\img\2026-05-18 181611.png)
+![](https://github.com/alphacat-666/CTFWriteup/blob/9d2b2a4c4d4bf6e7903cb4537d029ac1fc46a576/Forensics/check-the-fine-print%20(TJCTF%202026)/img/2026-05-18%20181611.png)
 
 This is why we can not see them properly.
 
