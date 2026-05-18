@@ -17,5 +17,6 @@
 | Cmashine            | Reverse        | Midnight Sun CTF 2026 Quals | Sometimes reversing is just blackbox pwning.                 |
 | treasure-hunt       | Web            | TJCTF 2026                  | Let's go hunt down some treasure! The flag is split into 4 parts. I'll give you the first one right here: tjctf |
 | polaroid            | Reverse        | TJCTF 2026                  | this old polaroid won't develop. it needs a password, and the password is somewhere on the film. |
+| delta-doodle        | Misc           | TJCTF 2026                  | i was calibrating the new AR airbrush for our maker faire booth by doodling the flag in midair. the headset, unfortunately, only logged the raw data. can you accumulate the motion trail and figure out what message we were trying to spray-paint? |
 |                     |                |                             |                                                              |
 
