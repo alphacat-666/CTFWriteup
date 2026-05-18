@@ -29,4 +29,4 @@ plt.axis("equal")
 plt.show()
 ```
 
-![](C:\Users\14489\Desktop\CTFWriteup&Notes\CTFWriteup\Misc\delta-doodle (TJCTF 2026)\img\2026-05-18 115308.png)
+![](https://github.com/alphacat-666/CTFWriteup/blob/50e7e83bbf9b2a496f14999d62de2d589830d9bc/Misc/delta-doodle%20(TJCTF%202026)/img/2026-05-18%20115308.png)
